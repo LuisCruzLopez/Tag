@@ -18,6 +18,7 @@
 
 <script>
 import Multiselect from 'vue-multiselect'
+import optionsData from '@/data.json' // Importa el archivo JSON
 
 export default {
   components: {
@@ -25,12 +26,8 @@ export default {
   },
   data() {
     return {
-      value: [{ name: 'Javascript', code: 'js' }],
-      options: [
-        { name: 'Vue.js', code: 'vu' },
-        { name: 'Javascript', code: 'js' },
-        { name: 'Open Source', code: 'os' }
-      ]
+      value: [],
+      options: optionsData
     }
   },
   methods: {
