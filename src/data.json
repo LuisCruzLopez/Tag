@@ -1,5 +1,42 @@
-[
-  { "name": "Vue.js", "code": "vu" },
-  { "name": "Javascript", "code": "js" },
-  { "name": "Open Source", "code": "os" }
-]
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "grado": "9°",
+      "cursos": ["Matemáticas", "Ciencias", "Historia"],
+      "imagen": "https://via.placeholder.com/50"
+    },
+    {
+      "id": 2,
+      "nombre": "María Gómez",
+      "grado": "10°",
+      "cursos": ["Literatura", "Química", "Física"],
+      "imagen": "https://via.placeholder.com/50"
+    }
+  ],
+  "profesores": [
+    {
+      "id": 3,
+      "nombre": "Carlos Ruiz",
+
+      "asignatura": "Matemáticas",
+      "clases": ["9°", "10°"],
+      "imagen": "https://via.placeholder.com/50"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana Martínez",
+
+      "asignatura": "Literatura",
+      "clases": ["10°", "11°"],
+      "imagen": "https://via.placeholder.com/50"
+    }
+  ],
+  "claves": [
+    { "id": "nombre", "displayLabel": "Nombre", "isKey": true },
+    { "id": "A3", "displayLabel": "EDAD", "isKey": true },
+    { "id": "grado", "displayLabel": "Grado", "isKey": true },
+    { "id": "asignatura", "displayLabel": "Asignatura", "isKey": true }
+  ]
+}
